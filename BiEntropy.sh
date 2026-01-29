@@ -19,11 +19,17 @@ def readwords(mfile):
     return ("".join(group) for pred, group in byte_stream if not pred)
 
 
-file_name = sys.argv[1] #'BN+OH-N-'  # Base filename of molecular input files
+# Run as:
+#
+# python BiEntropy.sh MBNNB+COOH 05 5
+#
+
+file_name = sys.argv[1] #Ex. MBNNB+COOH  # Base filename of molecular input files
 perc =  sys.argv[2] #Percentage: 05, 10, 15, 20, 25
 number_files = sys.argv[3]  #Number of files to process
-#file_data_name = 'BiEntropy_' + file_name + '-' + perc + '.dat'
-file_data_name = 'BiEntropy_' + file_name + perc + '.dat' # g-C3N4+OH05-541.xyz
+
+# Output file with entropy values:
+file_data_name = 'BiEntropy_' + file_name + perc + '.dat' # BiEntropy_MBNNB+COOH05.dat
 file_data = open(file_data_name, 'w')
 mol_ext_in = '.xyz'     # Extension of molecular input files
 
@@ -32,7 +38,8 @@ hfgp_ext_out = '.hfgp'  # Extension for vile with binary fingerprint
 FNULL = open(os.devnull, 'w')
 for i in range(1,int(number_files)+1):
 #    print (i)
-    file_in = file_name + perc + '-' + str(i) + mol_ext_in
+#    file_in = file_name + perc + '-' + str(i) + mol_ext_in
+    file_in = file_name + '-' + str(i) + mol_ext_in
 #    print file_in
     file_hfgp = str(i) + hfgp_ext_out
     file_bfgp = str(i) + bfgp_ext_out
