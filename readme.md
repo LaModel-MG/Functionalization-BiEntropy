@@ -50,7 +50,7 @@ Example of folder structure to work with:
 ├── out_Best_Structures *(created folder after running the script)*
 │   ├── MBNNB+COOH05-9.xyz
 │   └── MBNNB+COOH10-11.xyz
-└── out_BiEntropy (created folder after running the script)
+└── out_BiEntropy *(created folder after running the script)*
     ├── Best_structures.csv
     ├── BiEntropy_MBNNB+COOH05.dat
     ├── BiEntropy_MBNNB+COOH05.pdf
