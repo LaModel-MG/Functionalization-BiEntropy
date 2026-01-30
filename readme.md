@@ -3,8 +3,11 @@
 3. Download the files here to it (myBientropy)
 4. Execute file **BiEntropy_best.sh**: *sh BiEntropy_best.sh MBNNB 30*.
 
-These files where made to be used with two Python versions at the same time, *2.7.18* for **BiEntropy.sh** and *3.10.15* for **BiEntropy_getIndex.py**.
+**Note 1**: These files where made to be used with two Python versions at the same time, *2.7.18* for **BiEntropy.sh** and *3.10.15* for **BiEntropy_getIndex.py**.
 In this case, the Python control version is done using PyEnv (Info to setup/use [here](https://realpython.com/intro-to-pyenv/)).
+
+**Note 2**: The **BiEntropy.sh** script works with structure file names like: *MBNNB+COOH05-3.xyz*
+            If the names are like *MBNNB+COOH-3.xyz*, then use rename: `rename s/-/05-/ M*`
 
 Example of folder structure to work with:
 ```bash
