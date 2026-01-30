@@ -80,7 +80,7 @@ print(datos.index(find_nearest(datos, val)))
 #plot
 
 ax = plt.gca()
-plt.xlabel('BiEntropy')
+plt.xlabel('BiEntropy ({})'.format(file_name[10:]))
 plt.ylabel('Frequency')
 plt.title(r'$\mathrm{Histogram\ of\ IQ:}\ \mu=%.3f,\ \sigma=%.3f$' %(mu, sigma))
 #plt.text(0, 0, '{}'.format(datos.index(find_nearest(datos, val))), horizontalalignment='left',
