@@ -7,6 +7,7 @@ These files where made to be used with two Python versions at the same time, *2.
 In this case, the Python control version is done using PyEnv (Info to setup/use [here](https://realpython.com/intro-to-pyenv/)).
 
 Example of folder structure to work with:
+```bash
 .
 ├── BiEntropy_best.sh
 ├── BiEntropy_getIndex.py
@@ -56,4 +57,4 @@ Example of folder structure to work with:
     ├── BiEntropy_MBNNB+COOH05.pdf
     ├── BiEntropy_MBNNB+COOH10.dat
     └── BiEntropy_MBNNB+COOH10.pdf
-
+```
