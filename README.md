@@ -1,4 +1,4 @@
-Here are two versions of the scripts: one to run with Python 3.6 (**recommended**) and the other one to run with Python 2.7 and 3.6.
+Here are two versions of the scripts: one to run with Python > 3.6 and the other one to run with Python 2.7 and 3.6.
   
 1. Create a folder, ex. myBientropy
 2. Copy the functionalized folders to it (myBientropy)
@@ -6,6 +6,8 @@ Here are two versions of the scripts: one to run with Python 3.6 (**recommended*
 4. Execute file **BiEntropy_best.sh**: *sh BiEntropy_best.sh MBNNB 30*.
 
 **Note 1**: These scripts are intended to work with Python 3.6 and [OpenBabel](https://openbabel.org/).
+
+Dependencies install: `pip install scipy numpy matplotlib`.
 
 **Note 2**: The **BiEntropy.sh** script works with structure file names like: *MBNNB+COOH05-3.xyz*.
             If the names are like *MBNNB+COOH-3.xyz*,  then use rename: `rename s/-/05-/ M*`
