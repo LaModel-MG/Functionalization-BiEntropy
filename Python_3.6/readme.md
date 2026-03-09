@@ -3,7 +3,8 @@
 3. Download the files here to it (myBientropy)
 4. Execute file **BiEntropy_best.sh**: *sh BiEntropy_best.sh MBNNB 30* (here *30* represents the number of files to be processed).
 
-**Note 1**: These scripts are intended to work with Python 3.6 and [OpenBabel](https://openbabel.org/).
+**Note 1**: These scripts are intended to work with Python > 3.6 (tested with 3.6 and 3.12.6) and [OpenBabel](https://openbabel.org/).
+Dependencies install: ´pip install scipy numpy matplotlib´.
 
 **Note 2**: The **BiEntropy.sh** script works with structure file names like: *MBNNB+COOH05-3.xyz*.
             If the names are like *MBNNB+COOH-3.xyz*,  then use rename: `rename s/-/05-/ M*`
