@@ -1,7 +1,7 @@
 1. Create a folder, ex. myBientropy
 2. Copy the functionalized folders to it (myBientropy)
 3. Download the files here to it (myBientropy)
-4. Execute file **BiEntropy_best.sh**: *sh BiEntropy_best.sh MBNNB 30* (here *30* represente the number of files to be processed).
+4. Execute file **BiEntropy_best.sh**: *sh BiEntropy_best.sh MBNNB 30* (here *30* represents the number of files to be processed).
 
 **Note 1**: These scripts are intended to work with Python 3.6 and [OpenBabel](https://openbabel.org/).
 
