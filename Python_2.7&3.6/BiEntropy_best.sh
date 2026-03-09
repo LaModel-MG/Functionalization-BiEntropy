@@ -37,7 +37,7 @@ for d1 in $filename_root*; do      # System folders
     for d2 in *; do
         cd ${d2}
         echo ${d1} ${d2}
-        "${PYENV_ROOT}/versions/$Pv2/bin/python" ../../BiEntropy.sh ${d1} ${d2} $number_files
+        "${PYENV_ROOT}/versions/$Pv2/bin/python" ../../BiEntropy.py ${d1} ${d2} $number_files
         mv BiEntropy*.dat ../../out_BiEntropy/
         cd ..
     done
