@@ -3,6 +3,8 @@
 3. Download the files here to it (myBientropy)
 4. Execute file **BiEntropy_best.sh**: *sh BiEntropy_best.sh MBNNB 30*.
 
+**Note 0**: These scripts are intended to work with [PYENV](https://realpython.com/intro-to-pyenv/) (for Python installation/configuration) and [OpenBabel](https://openbabel.org/).
+
 **Note 1**: These files where made to be used with two Python versions at the same time, *2.7.18* for **BiEntropy.sh** and *3.10.15* for **BiEntropy_getIndex.py**.
 In this case, the Python control version is done using PyEnv (Info to setup/use [here](https://realpython.com/intro-to-pyenv/)).
 
