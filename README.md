@@ -5,7 +5,7 @@ Here are two versions of the scripts: one to run with Python > 3.6 (**recommende
 3. Download the files from one of the folders here to it (myBientropy)
 4. Execute file **BiEntropy_best.sh**: *sh BiEntropy_best.sh MBNNB 30*.
 
-**Note 1**: These scripts are intended to work with Python 3.6 and [OpenBabel](https://openbabel.org/).
+**Note 1**: These scripts are intended to work with Python > 3.6 and [OpenBabel](https://openbabel.org/).
 
 Dependencies install: `pip install scipy numpy matplotlib`.
 
