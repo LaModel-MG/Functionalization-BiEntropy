@@ -7,7 +7,7 @@
 
 Dependencies install: `pip install scipy numpy matplotlib`.
 
-**Note 2**: The **BiEntropy.sh** script works with structure file names like: *MBNNB+COOH05-3.xyz*.
+**Note 2**: The **BiEntropy.py** script works with structure file names like: *MBNNB+COOH05-3.xyz*.
             If the names are like *MBNNB+COOH-3.xyz*,  then use rename: `rename s/-/05-/ M*`
 
 Example of folder structure to work with:
