@@ -5,7 +5,7 @@
 
 **Note 0**: These scripts are intended to work with [PYENV](https://realpython.com/intro-to-pyenv/) (for Python installation/configuration) and [OpenBabel](https://openbabel.org/).
 
-**Note 1**: These files where made to be used with two Python versions at the same time, *2.7.18* for **BiEntropy.sh** and *3.10.15* for **BiEntropy_getIndex.py**.
+**Note 1**: These files where made to be used with two Python versions at the same time, *2.7.18* for **BiEntropy.py** and *3.10.15* for **BiEntropy_getIndex.py**.
 In this case, the Python control version is done using PyEnv (Info to setup/use [here](https://realpython.com/intro-to-pyenv/)).
 
 **Note 2**: The **BiEntropy.py** script works with structure file names like: *MBNNB+COOH05-3.xyz*.
