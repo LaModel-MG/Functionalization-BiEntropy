@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7.18
+#!/usr/bin/env python2.7.18
 import glob, os
 import sys
 import subprocess
