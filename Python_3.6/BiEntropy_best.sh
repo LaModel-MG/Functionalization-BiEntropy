@@ -60,3 +60,6 @@ for d1 in $filename_root*; do      # System folders
    done < ../out_BiEntropy/Best_structures.csv
    cd ..
 done
+
+mv out_Best_Structures ${filename_root}_out_Best_Structures
+mv out_BiEntropy ${filename_root}_out_BiEntropy
